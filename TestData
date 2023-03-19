@@ -52,7 +52,7 @@ The preferred method of creating these objects is to increase the de Broglie (�
 Answer: 
 Bose-Einstein condensate
 Output:
-de Broglie, MIT group, dispersive scattering, Ioffe-Pritchard, "cloverleaf" magnetic trap, Gross-Pitaevskii, ultracold rubidium
+de Broglie,MIT group,dispersive scattering,Ioffe-Pritchard,"cloverleaf" magnetic trap,Gross-Pitaevskii,ultracold rubidium
 
 Question: 
 Hasegawa and Kawasaki showed that overdense regions of these particles can be created from the formation of “q-balls” and may have decayed into primordial black holes. The mass fraction of Helium-4 varies logarithmically with the density of these particles, and the Affleck-Dine mechanism was proposed as a solution to the (+) generation of these particles. Moore and Silk proposed a dark matter candidate named for these particles called RAMBOs. Primordial deuterium abundance varies inversely with eta the ratio of the number of these particles to photons, while a standard length scale for intergalactic distances can be provided by fluctuations in the density of these particles’ called their namesake (*) acoustic oscillations. These particles’ creation are governed by the Sakharov conditions, and their namesake asymmetry accounts for the rarity of antimatter. For 10 points, name these ‘heavy’ particles with an odd number of valence quarks, exemplified by “ordinary matter” like protons and neutrons. 
@@ -60,3 +60,17 @@ Answer:
 baryons
 Output: 
 Hasegawa, Kawasaki,q-balls,primordial black holes,Affleck-Dine mechanism,RAMBOs, Primordial deuterium abundance,acoustic oscillations,Sakharov conditions,valence quarks
+
+Question: 
+Varactor diodes are devices specifically manufactured so that this quantity is inversely proportional to the thickness of the depletion region. The junction type of this property dominates in reverse bias, while the diffusion type is much larger in forward bias and is proportional to current. This ratio can be calculated by [read slowly] taking the surface integral of “D-dot-dA,” and dividing by the negative of the integral of “E-dot-dL” over a closed loop. The product of area, the permittivity of free space, and the dielectric constant, all divided by distance, gives this quantity for two parallel conducting plates. For 10 points, name this ratio whose inverse is elastance, most commonly described as charge divided by electric potential difference and measured in farads. 
+Answer: 
+capacitance
+Output:
+varactor diodes, depletion region, reverse bias, forward bias, permittivity of free space, dialectric constant, parallel conducting plates, elastance, electric potential difference, farads 
+
+Question: 
+This quantity increases in discrete steps for the Kuramoto–Sivashinsky equation describing thermal instabilities as the domain length increases. As this quantity diverges, the number of points in a Poincaré section increases. The ratio of parameters for which this quantity doubles converges to the first Feigenbaum constant for systems like the logistic map, describing a “route to chaos” corresponding to bifurcations where this quantity doubles. Similarly, this quantity diverges to infinity for most trajectories in chaotic systems. The square of this quantity is proportional to the semimajor axis cubed for an orbit, according to Kepler’s third law. This quantity scales as the square root of L over g for a pendulum undergoing small oscillations. For 10 points, what quantity gives the time it takes for a system to return to its initial state?
+Answer: 
+period 
+Output: 
+Kuramoto-Sivashinsky equation,thermal instability,Poincaré section,Feigenbaum constant,logistic map,"route to chaos",chaotic systems,semimahor axis,Kepler's third law,initial state 
