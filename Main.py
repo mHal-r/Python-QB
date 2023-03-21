@@ -75,6 +75,31 @@ def calcFrequency(text, keyword):
     for i in text :
         max = max(text.countOf(i), max)
     return raw/max
+def calculateList(keyword):
+    src = article_clean[keyword]
+    tries = set()
+    ranked = {}
+    for i in src.__sizeof__():
+        tries.add(i)
+    for k in tries:
+        ranked[k] = analyzeText(keyword, k)
+    dict(sorted(ranked.items(), key=lambda item: item[1]))
+    return ranked
+def test():
+    pscore = 0
+    ascore = 0
+    result = []
+    for i in test_answer:
+        result = calculateList(i)
+        string = test_output(test_answer.index(i))
+        tdata = re.split(r"\,", string)
+        pscore = result.sizeof()/tdata.__sizeof__()
+        for k in result:
+            if(tdata.countOf(k) >0):
+                ascore +=1
+        print(string)
+        print(result)
+        print(ascore + " " + pscore)
 if __name__=="__main__":
         main()
 
